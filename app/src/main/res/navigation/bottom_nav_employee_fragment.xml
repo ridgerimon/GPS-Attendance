@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_nav_fragment"
+    app:startDestination="@id/attendance_sheet"
+    >
+
+    <fragment
+        android:id="@+id/attendance_sheet"
+        android:name="com.example.smartgpsattendance.EmployeeApp.EmployeeFragment.AttendanceSheetFragment"
+        android:label="homeFragment" />
+    <fragment
+        android:id="@+id/profile_employee_fragment"
+        android:name="com.example.smartgpsattendance.EmployeeApp.EmployeeFragment.ProfileFragment"
+        android:label="userFragment" />
+
+</navigation>

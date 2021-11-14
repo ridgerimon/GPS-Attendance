@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="Schedule of the week"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="MONDAY" />
+
+                    <TextView
+                        android:id="@+id/start_MONDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Start Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/end_MONDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="End Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="TUESDAY" />
+
+                    <TextView
+                        android:id="@+id/start_TUESDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Start Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/end_TUESDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="End Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="WEDNESDAY" />
+
+                    <TextView
+                        android:id="@+id/start_WEDNESDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Start Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/end_WEDNESDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="End Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="THURSDAY" />
+
+                    <TextView
+                        android:id="@+id/start_THURSDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Start Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/end_THURSDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="End Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="FRIDAY" />
+
+                    <TextView
+                        android:id="@+id/start_FRIDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Start Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/end_FRIDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="End Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="SATURDAY" />
+
+                    <TextView
+                        android:id="@+id/start_SATURDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Start Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/end_SATURDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="End Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="SUNDAY" />
+
+                    <TextView
+                        android:id="@+id/start_SUNDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="Start Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/end_SUNDAY_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="End Time"
+                        android:descendantFocusability="blocksDescendants" 
+                        android:paddingLeft="10dp"
+                        android:paddingTop="13dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="13dp"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardCornerRadius="10dp"
+            android:background="@color/transparent"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/transparent">
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyleWhite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/cancel_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gradient_start_color"
+                        android:text="cancel"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white" />
+
+                <com.balysv.materialripple.MaterialRippleLayout
+                    style="@style/RippleStyleWhite"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/schedule_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/gradient_start_color"
+                        android:text="Save"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/white"
+                        android:textStyle="bold" />
+
+                </com.balysv.materialripple.MaterialRippleLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

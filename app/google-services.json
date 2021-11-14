@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "628581855126",
+    "firebase_url": "https://gps-attendance-49f14-default-rtdb.firebaseio.com",
+    "project_id": "gps-attendance-49f14",
+    "storage_bucket": "gps-attendance-49f14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628581855126:android:72b938f8b75a13529677b7",
+        "android_client_info": {
+          "package_name": "android.android.gpsattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628581855126-ukhoovpjnr3rbq6qfikek8ki1745a4to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL1L_i2svIHNkhyXeBYTnShYHWys3lHwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628581855126-ukhoovpjnr3rbq6qfikek8ki1745a4to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628581855126:android:116aea7bcfb157e89677b7",
+        "android_client_info": {
+          "package_name": "com.example.smartgpsattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628581855126-h9rfnn2uh98u6ckt6jurtg352v1r4gii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartgpsattendance",
+            "certificate_hash": "e6eaf77b7e791114e021a44a2ed7f131a76c999b"
+          }
+        },
+        {
+          "client_id": "628581855126-ukhoovpjnr3rbq6qfikek8ki1745a4to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL1L_i2svIHNkhyXeBYTnShYHWys3lHwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628581855126-ukhoovpjnr3rbq6qfikek8ki1745a4to.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
